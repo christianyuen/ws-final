@@ -193,7 +193,7 @@ header p {
 #mobile-video {
     visibility: hidden;
     position: absolute;
-    width: 100%;
+    /* width: 100%; */
     top: 0;
     bottom: 0;
     left: 0;
@@ -243,7 +243,7 @@ header p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
     #video {
         visibility: hidden;
     }

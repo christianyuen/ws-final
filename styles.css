@@ -147,7 +147,6 @@ header p {
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-    padding-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -174,7 +173,6 @@ header p {
     cursor: pointer;
     text-decoration: none;
     color: white;
-    margin-bottom: 15px;
 }
 
 .menu-open {
@@ -193,7 +191,6 @@ header p {
 #mobile-video {
     visibility: hidden;
     position: absolute;
-    /* width: 100%; */
     top: 0;
     bottom: 0;
     left: 0;

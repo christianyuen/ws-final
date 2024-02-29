@@ -243,8 +243,8 @@ header p {
 @media (max-width: 500px) {
     #video {
         /* visibility: hidden; */
-        width: 10px;
-        padding-left: 20px;
+        position: absolute;
+        top: -500px;
     }
     #mobile-video {
         visibility: visible;

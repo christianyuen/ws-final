@@ -240,9 +240,9 @@ header p {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     #video {
-        visibility: hidden;
+        /* visibility: hidden; */
     }
     #mobile-video {
         visibility: visible;

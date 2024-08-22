@@ -30,6 +30,7 @@ body {
 /* LANDING PAGE */
 #video {
     width: 100%;
+    display: block;
 }
 
 /* header */
@@ -208,6 +209,7 @@ header p {
 }
 
 #mobile-video {
+    display: none;
     visibility: hidden;
     position: absolute;
     top: 0;
@@ -311,9 +313,11 @@ header p {
 @media (max-width: 500px) {
     #video {
         width: 0.5px;
+        display: none;
     }
     #mobile-video {
         visibility: visible;
+        display: block;
     }
 }
 

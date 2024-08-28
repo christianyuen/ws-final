@@ -42,13 +42,13 @@ body {
     right: 0;
 }
 
-.mobile-video {
+/* .mobile-video {
     display: none;
 }
 
 .desktop-video {
     display: block;
-}
+} */
 
 /* header */
 header {
@@ -315,13 +315,13 @@ header p {
 }
 
 @media (max-width: 500px) {
-    .desktop-video {
+    /* .desktop-video {
         display: none;
     }
 
     .mobile-video {
         display: block;
-    }
+    } */
     
     #video {
         visibility: hidden;

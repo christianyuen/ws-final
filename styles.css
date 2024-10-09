@@ -144,8 +144,7 @@ header p {
 }
 
 .unmute {
-    width: 36px;
-    filter: invert();
+    width: 40px;
 }
 
 .mute {

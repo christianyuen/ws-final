@@ -32,6 +32,16 @@ p, h1, h2, h3, h4, h5, button, a, .dropdown {
     background-color: black;
 }
 
+/* hover states */
+
+a, button, p {
+    transition: ease-in-out all 0.1s;
+}
+
+a:hover, a:active, a:focus, .select:hover, .select:active, .select:focus, p:hover, p:active, p:focus, .menu a:hover, .menu a:active, .menu a:focus, .work-container a:hover, .work-container a:active, .work-container a:focus {
+    color: rgb(195, 195, 195);
+}
+
 /* VIDEO */
 #video {
     width: 100dvw;
@@ -80,6 +90,7 @@ header p {
     color: white;
     text-align: center; 
     margin: 0;
+    cursor: default;
 }
 
 .container a {
@@ -205,7 +216,7 @@ header p {
     align-items: center;
     position: absolute;
     left: 0;
-    top: 120px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -213,7 +224,6 @@ header p {
     color: white;
     text-align: center;
     margin: 0;
-    margin-top: 20px;
 }
 
 .about-header {
@@ -228,7 +238,30 @@ header p {
 }
 
 /* PORTFOLIO PAGE */
-.about-container ul {
+
+/* ABOUT PAGE */
+.work-container {
+    right: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* top: 130px; */
+}
+
+.work-container h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.work-container ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -237,12 +270,12 @@ header p {
     padding: 0;
 }
 
-.about-container a {
+.work-container a {
     text-decoration: none;
     color: white;
 }
 
-.about-container li {
+.work-container li {
     padding-bottom: 12px;
 }
 

@@ -38,7 +38,7 @@ a, button, p {
     transition: ease-in-out all 0.1s;
 }
 
-a:hover, a:active, a:focus, .select:hover, .select:active, .select:focus, p:hover, p:active, p:focus, .menu a:hover, .menu a:active, .menu a:focus, .work-container a:hover, .work-container a:active, .work-container a:focus {
+a:hover, a:focus, .select:hover, .select:focus, p:hover, p:focus, .menu a:hover, .menu a:focus, .work-container a:hover, .work-container .work-container a:focus {
     color: rgb(195, 195, 195);
 }
 

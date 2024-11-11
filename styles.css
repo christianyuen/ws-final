@@ -326,6 +326,10 @@ header p {
     #mobile-video {
         visibility: visible;
     }
+
+    a:hover, a:focus, .select:hover, .select:focus, p:hover, p:focus, .menu a:hover, .menu a:focus, .work-container a:hover, .work-container .work-container a:focus {
+        color: white;
+    }
 }
 
 

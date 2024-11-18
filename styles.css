@@ -113,14 +113,15 @@ header p {
     padding: 12px 60px;
 }
 
-/* .unmute {
-    width: 40px;
+.unmute {
+    width: 30px;
+    filter: invert();
 }
 
 .mute {
-    width: 27px;
+    width: 30px;
     filter: invert();
-} */
+}
 
 #video-controls button {
     background: none;
